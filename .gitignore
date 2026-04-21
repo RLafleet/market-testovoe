@@ -1,0 +1,9 @@
+.vscode/
+.idea/  
+*.tmp   
+*.temp  
+*.cache 
+*.bak   
+*.log   
+node_modules/
+.parcel-cache/

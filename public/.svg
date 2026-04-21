@@ -1,0 +1,22 @@
+<svg width="25" height="21" viewBox="0 0 25 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.5" y="0.5" width="24" height="2" stroke="#417A82"/>
+<rect x="2.5" y="5.5" width="20" height="3" stroke="#417A82"/>
+<rect x="2.5" y="8.5" width="20" height="3" stroke="#417A82"/>
+<rect x="2.5" y="11.5" width="20" height="3" stroke="#417A82"/>
+<rect x="2.5" y="14.5" width="20" height="3" stroke="#417A82"/>
+<rect x="2.5" y="17.5" width="20" height="3" stroke="#417A82"/>
+<path d="M4.5 2L4.5 6" stroke="#417A82"/>
+<line x1="4.5" y1="6" x2="4.5" y2="7" stroke="#417A82"/>
+<line x1="4.5" y1="9" x2="4.5" y2="10" stroke="#417A82"/>
+<line x1="4.5" y1="11.0454" x2="4.5" y2="11.7992" stroke="#417A82"/>
+<line x1="4.5" y1="14.0601" x2="4.5" y2="14.8138" stroke="#417A82"/>
+<line x1="4.5" y1="18" x2="4.5" y2="19" stroke="#417A82"/>
+<line x1="4.5" y1="15" x2="4.5" y2="16" stroke="#417A82"/>
+<line x1="4.5" y1="12" x2="4.5" y2="13" stroke="#417A82"/>
+<path d="M20.4998 2L20.4998 5.5" stroke="#417A82"/>
+<line x1="20.4998" y1="6" x2="20.4998" y2="7" stroke="#417A82"/>
+<line x1="20.4998" y1="9" x2="20.4998" y2="10" stroke="#417A82"/>
+<line x1="20.4998" y1="18" x2="20.4998" y2="19" stroke="#417A82"/>
+<line x1="20.4998" y1="15" x2="20.4998" y2="16" stroke="#417A82"/>
+<line x1="20.4998" y1="12" x2="20.4998" y2="13" stroke="#417A82"/>
+</svg>
