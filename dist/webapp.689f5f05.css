@@ -3,6 +3,14 @@ body {
   line-height: normal;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+*, :before, :after {
+  box-sizing: border-box;
+}
+
 :root {
   --color-azure: #e3f6f54d;
   --color-darkslategray-100: #052e4c0d;
@@ -158,5 +166,65 @@ body {
   --ls--0_03: -.03;
   --left-0: 0px;
   --top-0: 0px;
+  --container-width: 1120px;
+  --container-padding: 24px;
+  --focus-ring: 0 0 0 3px #417a8259;
+  --transition-base: .25s ease;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  white-space: nowrap;
+  border: 0;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  position: absolute;
+  overflow: hidden;
+}
+
+body {
+  min-width: 320px;
+  color: var(--dark-blue);
+  background: var(--white);
+  font-family: var(--font-pt-sans), sans-serif;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button, input, textarea, select {
+  font: inherit;
+}
+
+button {
+  color: inherit;
+  background: none;
+  border: 0;
+}
+
+.focusable-skip-link:focus {
+  clip: auto;
+  clip-path: none;
+  white-space: normal;
+  z-index: 1000;
+  background: var(--dark-blue);
+  width: auto;
+  height: auto;
+  color: var(--white);
+  margin: 16px;
+  padding: 12px 16px;
+  overflow: visible;
 }
 /*# sourceMappingURL=webapp.689f5f05.css.map */

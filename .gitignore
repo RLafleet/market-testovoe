@@ -7,3 +7,5 @@
 *.log   
 node_modules/
 .parcel-cache/
+dist/
+build/

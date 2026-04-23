@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
     <title>Lorem — солнцезащитные системы</title>
     <meta
       name="description"
@@ -11,7 +11,6 @@
 
     <link rel="stylesheet" href="./global.css" />
     <link rel="stylesheet" href="./index.css" />
-
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Cormorant Infant:ital,wght@0,300;0,400;0,700;1,400;1,600;1,700&display=swap"
@@ -29,230 +28,253 @@
       href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,700;1,400;1,700&display=swap"
     />
   </head>
-
   <body>
+    <a class="visually-hidden focusable-skip-link" href="#main-content"
+      >Перейти к содержанию</a
+    >
     <div class="concept-31">
-      <header class="site-header">
-        <div class="slider-parent">
-          <section class="slider hero" aria-label="Главный экран">
-            <img
-              class="slider-child"
-              src="./public/Rectangle-12@2x.png"
-              alt="Интерьер с солнцезащитными системами"
-            />
+      <header class="slider-parent site-header">
+        <section class="slider hero" aria-labelledby="hero-title">
+          <img
+            class="slider-child"
+            alt="Интерьер с солнцезащитными системами"
+            src="./public/Rectangle-12@2x.png"
+          />
 
-            <div class="group" aria-label="Слайд 1 из 3">
-              <div class="div3">1/3</div>
-              <img class="frame-child" src="./public/Rectangle-48.svg" alt="" />
+          <section class="frame-parent" aria-label="Главное предложение">
+            <div class="parent">
+              <h1 class="div" id="hero-title">
+                <span class="span">Купите<br /></span>
+                <i class="i">Что-то<br /></i>
+                <span class="span">и еще </span>
+                <i class="i">шторы</i>
+              </h1>
+              <p class="lorem">
+                «Lorem» — производитель изделий для внутренней и внешней lorem
+              </p>
             </div>
-
-            <div class="logo-container-parent">
-              <div class="logo-container">
-                <a class="ellipse-parent" href="/" aria-label="На главную">
-                  <div class="frame-item" aria-hidden="true"></div>
-                  <div class="logo-wrapper">
-                    <span class="logo">LOGO</span>
-                  </div>
-                </a>
-
-                <div class="logo-container-inner" aria-hidden="true">
-                  <div class="line-parent">
-                    <div class="frame-inner"></div>
-                    <div class="line-div"></div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="frame-wrapper">
-                <div class="button-parent">
-                  <button class="button2" type="button">
-                    <span class="div4">Заказать замер</span>
-                  </button>
-
-                  <a href="#cart" class="cart-link" aria-label="Перейти в корзину">
-                    <img
-                      class="cart-icon"
-                      src="./public/cart-icon.svg"
-                      alt="Корзина"
-                    />
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="frame-parent">
-              <div class="parent">
-                <h1 class="div">
-                  <span class="span">Купите<br /></span>
-                  <i class="i">Что-то<br /></i>
-                  <span class="span">и еще </span>
-                  <i class="i">шторы</i>
-                </h1>
-
-                <p class="lorem">
-                  «Lorem» — производитель изделий для внутренней и внешней lorem
-                </p>
-              </div>
-
-              <button class="button" type="button">
-                <span class="div2">калькулятор</span>
-              </button>
-            </div>
-
-            <img class="slider-item" src="./public/Rectangle-48.svg" alt="" />
+            <button
+              class="button js-ui-button"
+              type="button"
+              aria-label="Открыть калькулятор"
+            >
+              <span class="div2">калькулятор</span>
+            </button>
           </section>
 
-          <div class="menu">
-            <button
-              class="burger"
-              type="button"
-              aria-label="Открыть меню"
-              aria-expanded="false"
-            >
-              <div class="burger-child" aria-hidden="true"></div>
-            </button>
+          <button
+            class="slider-item hero-scroll-button"
+            type="button"
+            aria-label="Прокрутить к популярным товарам"
+          ></button>
 
-            <div class="frame-group">
-              <nav class="container" aria-label="Категории">
-                <a href="#" aria-label="Категория 1">
-                  <img class="icon" src="./public/.svg" alt="" />
-                </a>
+          <div class="group" aria-label="Текущий слайд главного экрана">
+            <div class="div3">1/3</div>
+            <img
+              class="frame-child"
+              alt=""
+              aria-hidden="true"
+              src="./public/Rectangle-48.svg"
+            />
+          </div>
 
-                <a href="#" aria-label="Категория 2">
-                  <img class="icon2" src="./public/1@2x.png" alt="" />
-                </a>
+          <section class="logo-container-parent" aria-label="Шапка сайта">
+            <a class="logo-container" href="/" aria-label="Lorem — на главную">
+              <div class="ellipse-parent">
+                <span class="frame-item" aria-hidden="true"></span>
+                <span class="logo-wrapper">
+                  <div class="logo">LOGO</div>
+                </span>
+              </div>
+              <span class="logo-container-inner" aria-hidden="true">
+                <span class="line-parent">
+                  <span class="frame-inner"></span>
+                  <span class="line-div"></span>
+                </span>
+              </span>
+            </a>
 
-                <a class="wrapper" href="#" aria-label="Категория 3">
-                  <img class="icon3" src="./public/2.svg" alt="" />
-                </a>
-
-                <a href="#" aria-label="Категория 4">
-                  <img class="icon4" src="./public/3.svg" alt="" />
-                </a>
-
-                <a href="#" aria-label="Категория 5">
-                  <img class="icon5" src="./public/4.svg" alt="" />
-                </a>
-
-                <a href="#" aria-label="Категория 6">
-                  <img class="icon6" src="./public/5.svg" alt="" />
-                </a>
-
-                <a href="#" aria-label="Категория 7">
-                  <img class="icon6" src="./public/6.svg" alt="" />
-                </a>
-              </nav>
-
-              <div class="menu-footer">
-                <div class="menu-options">
-                  <a href="#" aria-label="Избранное">
-                    <img class="vector-icon" src="./public/Vector.svg" alt="" />
-                  </a>
-
-                  <div class="menu-footer">
-                    <a href="#" aria-label="Профиль">
-                      <img class="icon8" src="./public/7.svg" alt="" />
-                    </a>
-                  </div>
-
-                  <a href="#" aria-label="Сравнение">
-                    <img class="icon9" src="./public/8.svg" alt="" />
-                  </a>
-                </div>
+            <div class="frame-wrapper">
+              <div class="button-parent">
+                <button
+                  class="button2 js-ui-button"
+                  type="button"
+                  aria-label="Заказать замер"
+                >
+                  <span class="div4">Заказать замер</span>
+                </button>
+                <button
+                  class="icon-button header-cart-button js-ui-button"
+                  type="button"
+                  aria-label="Открыть корзину"
+                >
+                  <img
+                    class="cart-icon"
+                    alt=""
+                    aria-hidden="true"
+                    src="./public/cart-icon.svg"
+                  />
+                </button>
               </div>
             </div>
-
-            <button
-              class="short-search-button"
-              type="button"
-              aria-label="Открыть поиск"
-            >
-              <img
-                class="short-search-icon"
-                src="./public/short-search.svg"
-                alt=""
-              />
-            </button>
-          </div>
-        </div>
-      </header>
-
-      <main class="frame-container">
-        <section class="popular-section" aria-labelledby="popular-title">
-          <h2 class="h1" id="popular-title">Популярное</h2>
-
-          <div class="product-module-parent">
-            <div class="product-module">
-              <section class="product-collection" aria-label="Популярные категории">
-                <div class="nets">
-                  <h3 class="h2">
-                    <i class="i3">Москитные</i>
-                    <span> сетки</span>
-                  </h3>
-                </div>
-
-                <div class="vertical-parent">
-                  <article class="vertical">
-                    <h3 class="lorem2">Lorem</h3>
-                  </article>
-
-                  <article class="day">
-                    <div class="day-info">
-                      <h3 class="lorem3">Lorem</h3>
-                    </div>
-
-                    <div class="action-event-parent">
-                      <div class="action-event">
-                        <img
-                          class="general-pointing-hand"
-                          src="./public/General-Pointing-Hand.svg"
-                          alt=""
-                        />
-                      </div>
-                      <div class="action-event-b-g"></div>
-                    </div>
-                  </article>
-                </div>
-              </section>
-
-              <article class="roll">
-                <img
-                  class="image-25-icon"
-                  loading="lazy"
-                  src="./public/image-25@2x.png"
-                  alt="Рулонные шторы"
-                />
-                <h3 class="lorem4">Lorem</h3>
-              </article>
-            </div>
-
-            <div class="roll-promo-b-g"></div>
-          </div>
+          </section>
         </section>
 
-        <section class="offer-wrapper-wrapper" aria-labelledby="best-offers-title">
+        <nav
+          class="menu"
+          aria-label="Основная навигация"
+          data-menu
+          aria-expanded="false"
+        >
+          <button
+            class="burger"
+            type="button"
+            aria-label="Открыть меню"
+            aria-controls="site-menu-panel"
+            aria-expanded="false"
+            data-menu-toggle
+          >
+            <div class="burger-child"></div>
+          </button>
+
+          <div class="frame-group" id="site-menu-panel" data-menu-panel>
+            <div class="container">
+              <a href="#popular" aria-label="Перейти к популярным товарам">
+                <img class="icon2" alt="Популярные товары" src="./public/1@2x.png" />
+              </a>
+
+              <a class="wrapper" href="#selection-support" aria-label="Помощник в выборе">
+                <img class="icon3" alt="Помощник в выборе" src="./public/2.svg" />
+              </a>
+
+              <a href="#offers" aria-label="Лучшие предложения">
+                <img class="icon4" alt="Лучшие предложения" src="./public/3.svg" />
+              </a>
+              <a href="#promo" aria-label="Акции">
+                <img class="icon5" alt="Акции" src="./public/4.svg" />
+              </a>
+              <a href="#works" aria-label="Примеры работ">
+                <img class="icon6" alt="Примеры работ" src="./public/5.svg" />
+              </a>
+              <a href="#site-footer" aria-label="Контакты">
+                <img class="icon6" alt="Контакты" src="./public/6.svg" />
+              </a>
+            </div>
+
+            <div class="menu-footer">
+              <div class="menu-options">
+                <a href="#" aria-label="WhatsApp">
+                  <img class="vector-icon" alt="WhatsApp" src="./public/Vector.svg" />
+                </a>
+
+                <div class="menu-footer">
+                  <a href="#" aria-label="Telegram">
+                    <img class="icon8" alt="Telegram" src="./public/7.svg" />
+                  </a>
+                </div>
+
+                <a href="#" aria-label="VK">
+                  <img class="icon9" alt="VK" src="./public/8.svg" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <button
+            class="icon-button search-button js-ui-button"
+            type="button"
+            aria-label="Поиск по сайту"
+          >
+            <img
+              class="short-search-icon"
+              alt=""
+              aria-hidden="true"
+              src="./public/short-search.svg"
+            />
+          </button>
+        </nav>
+      </header>
+
+      <div class="h1" id="popular">Популярное</div>
+
+      <main class="frame-container" id="main-content">
+        <section class="product-module-parent">
+          <div class="product-module">
+            <section class="product-collection">
+              <div class="nets">
+                <h2 class="h2">
+                  <i class="i3">Москитные</i>
+                  <span> сетки</span>
+                </h2>
+              </div>
+
+              <div class="vertical-parent">
+                <div class="vertical">
+                  <h2 class="lorem2">Lorem</h2>
+                </div>
+
+                <div class="day">
+                  <div class="day-info">
+                    <h2 class="lorem3">Lorem</h2>
+                  </div>
+
+                  <div class="action-event-parent">
+                    <div class="action-event">
+                      <img
+                        class="general-pointing-hand"
+                        alt=""
+                        src="./public/General-Pointing-Hand.svg"
+                      />
+                    </div>
+                    <div class="action-event-b-g"></div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <div class="roll">
+              <img
+                class="image-25-icon"
+                loading="lazy"
+                alt="Рулонные шторы"
+                src="./public/image-25@2x.png"
+              />
+              <h2 class="lorem4">Lorem</h2>
+            </div>
+          </div>
+
+          <div class="roll-promo-b-g"></div>
+        </section>
+
+        <section
+          class="offer-wrapper-wrapper"
+          id="offers"
+          aria-labelledby="offers-title"
+        >
           <div class="offer-wrapper">
             <div class="offer-title-area">
-              <h2 class="h3" id="best-offers-title">Лучшие предложения</h2>
+              <h2 class="h3" id="offers-title">Лучшие предложения</h2>
 
-              <div class="arrows" aria-label="Навигация по предложениям">
-                <div class="empty-description">1/3</div>
-                <img
+              <div class="arrows" data-slider-status aria-live="polite">
+                <button
                   class="arrows-child"
-                  src="./public/Rectangle-48.svg"
-                  alt=""
-                />
-                <img
+                  type="button"
+                  aria-label="Предыдущий слайд"
+                  data-slider-prev
+                ></button>
+                <div class="empty-description">1/3</div>
+                <button
                   class="rectangle-49-stroke"
-                  src="./public/Rectangle-49-Stroke.svg"
-                  alt=""
-                />
+                  type="button"
+                  aria-label="Следующий слайд"
+                  data-slider-next
+                ></button>
               </div>
             </div>
 
-            <div class="cart-carousel">
-              <div class="product-container" id="cart">
-                <article class="product-wrapper">
+            <div class="cart-carousel" data-slider>
+              <div class="product-container" data-slider-track>
+                <section class="product-wrapper">
                   <div class="cart">
                     <div class="hover-back"></div>
 
@@ -262,25 +284,25 @@
                           <div class="hover-info">
                             <img
                               class="image-35-icon"
+                              alt=""
                               src="./public/image-35@2x.png"
-                              alt=""
                             />
                             <img
                               class="image-36-icon"
+                              alt=""
                               src="./public/image-361@2x.png"
-                              alt=""
                             />
                             <img
                               class="image-36-icon"
-                              src="./public/image-37@2x.png"
                               alt=""
+                              src="./public/image-37@2x.png"
                             />
                           </div>
                         </div>
 
                         <div class="discount">
                           <div class="discount-child"></div>
-                          <div class="discount-value">-10%</div>
+                          <h3 class="discount-value">-10%</h3>
                         </div>
                       </div>
                     </div>
@@ -289,48 +311,48 @@
                       <div class="picture-data">
                         <img
                           class="picture-icon"
-                          src="./public/picture2@2x.png"
                           alt="Вертикальные жалюзи Lorem"
+                          src="./public/picture2@2x.png"
                         />
 
-                        <div class="color" aria-label="Доступные цвета">
+                        <div class="color">
                           <img
                             class="image-22-icon"
+                            alt=""
                             src="./public/image-22@2x.png"
-                            alt=""
                           />
                           <img
                             class="image-22-icon"
+                            alt=""
                             src="./public/image-26@2x.png"
-                            alt=""
                           />
                           <img
                             class="image-22-icon"
+                            alt=""
                             src="./public/image-241@2x.png"
-                            alt=""
                           />
                           <img
                             class="image-22-icon"
+                            alt=""
                             src="./public/image-271@2x.png"
-                            alt=""
                           />
                           <img
                             class="image-22-icon"
+                            alt=""
                             src="./public/image-22@2x.png"
-                            alt=""
                           />
                           <img
                             class="image-22-icon"
-                            src="./public/image-26@2x.png"
                             alt=""
+                            src="./public/image-26@2x.png"
                           />
 
                           <div class="image-35-parent">
                             <div class="image-35"></div>
                             <img
                               class="rectangle-icon"
-                              src="./public/Rectangle-20.svg"
                               alt=""
+                              src="./public/Rectangle-20.svg"
                             />
                           </div>
                         </div>
@@ -339,22 +361,24 @@
                       </div>
 
                       <div class="price">
-                        <h3 class="lorem5">Вертикальные жалюзи<br />«Lorem»</h3>
+                        <div class="lorem5">
+                          Вертикальные жалюзи<br />«Lorem»<br />
+                        </div>
 
                         <div class="price2">
                           <div class="actual-price">
                             <div class="price-block">
-                              <span class="h32">от</span>
+                              <h3 class="h32">от</h3>
                             </div>
-                            <div class="h22">1200₽</div>
+                            <h2 class="h22">1200₽</h2>
                           </div>
 
                           <div class="old-price">
-                            <div class="h23">1000₽</div>
+                            <h2 class="h23">1000₽</h2>
                             <img
                               class="strikethrough-icon"
-                              src="./public/Strikethrough.svg"
                               alt=""
+                              src="./public/Strikethrough.svg"
                             />
                           </div>
                         </div>
@@ -362,18 +386,18 @@
                         <div class="action">
                           <button class="component-1" type="button">
                             <span class="div5">оформить заявку</span>
-                            <div class="background"></div>
+                            <span class="background" aria-hidden="true"></span>
                           </button>
-
                           <button
-                            class="cart-button"
+                            class="icon-button product-cart-button js-ui-button"
                             type="button"
-                            aria-label="Добавить в корзину"
+                            aria-label="Добавить товар в корзину"
                           >
                             <img
                               class="cart-icon2"
-                              src="./public/cart.svg"
                               alt=""
+                              aria-hidden="true"
+                              src="./public/cart.svg"
                             />
                           </button>
                         </div>
@@ -383,16 +407,16 @@
 
                   <img
                     class="general-pointing-hand2"
-                    src="./public/General-Pointing-Hand.svg"
                     alt=""
+                    src="./public/General-Pointing-Hand.svg"
                   />
-                </article>
+                </section>
 
-                <article class="cart2">
+                <section class="cart2">
                   <div class="product-information">
                     <div class="discount2">
                       <div class="discount-item"></div>
-                      <div class="sale-value">-10%</div>
+                      <h3 class="sale-value">-10%</h3>
                     </div>
                   </div>
 
@@ -400,25 +424,25 @@
                     <div class="product-content">
                       <img
                         class="picture-icon2"
-                        src="./public/picture1@2x.png"
                         alt="Вертикальные жалюзи Lorem"
+                        src="./public/picture1@2x.png"
                       />
 
-                      <div class="color" aria-label="Доступные цвета">
+                      <div class="color">
                         <img
                           class="image-22-icon2"
+                          alt=""
                           src="./public/image-22@2x.png"
-                          alt=""
                         />
                         <img
                           class="image-22-icon2"
+                          alt=""
                           src="./public/image-271@2x.png"
-                          alt=""
                         />
                         <img
                           class="image-22-icon2"
-                          src="./public/image-26@2x.png"
                           alt=""
+                          src="./public/image-26@2x.png"
                         />
                       </div>
 
@@ -426,52 +450,52 @@
                     </div>
 
                     <div class="price">
-                      <h3 class="lorem5">
+                      <div class="lorem5">
                         Вертикальные жалюзи<br />«Lorem». Длинное название в три
                         строчки
-                      </h3>
+                      </div>
 
                       <div class="price2">
                         <div class="actual-price">
                           <div class="price-block">
-                            <span class="h32">от</span>
+                            <h3 class="h32">от</h3>
                           </div>
-                          <div class="h22">1200₽</div>
+                          <h2 class="h22">1200₽</h2>
                         </div>
 
                         <div class="old-price">
-                          <div class="h23">1000₽</div>
+                          <h2 class="h23">1000₽</h2>
                           <img
                             class="strikethrough-icon"
-                            src="./public/Strikethrough.svg"
                             alt=""
+                            src="./public/Strikethrough.svg"
                           />
                         </div>
                       </div>
 
                       <div class="action">
-                        <button class="component-1" type="button">
+                        <button class="component-1 js-ui-button" type="button">
                           <span class="div5">оформить заявку</span>
-                          <div class="background"></div>
+                          <span class="background" aria-hidden="true"></span>
                         </button>
-
                         <button
-                          class="cart-button"
+                          class="icon-button product-cart-button js-ui-button"
                           type="button"
-                          aria-label="Добавить в корзину"
+                          aria-label="Добавить товар в корзину"
                         >
                           <img
                             class="cart-icon2"
-                            src="./public/cart.svg"
                             alt=""
+                            aria-hidden="true"
+                            src="./public/cart.svg"
                           />
                         </button>
                       </div>
                     </div>
                   </div>
-                </article>
+                </section>
 
-                <article class="more-products">
+                <section class="more-products">
                   <div class="cart3">
                     <div class="product-display">
                       <div class="product-image-info-parent">
@@ -479,25 +503,25 @@
                           <div class="hover-info">
                             <img
                               class="image-35-icon"
+                              alt=""
                               src="./public/image-35@2x.png"
-                              alt=""
                             />
                             <img
                               class="image-36-icon"
+                              alt=""
                               src="./public/image-361@2x.png"
-                              alt=""
                             />
                             <img
                               class="image-36-icon"
-                              src="./public/image-37@2x.png"
                               alt=""
+                              src="./public/image-37@2x.png"
                             />
                           </div>
                         </div>
 
                         <div class="discount">
                           <div class="discount-child"></div>
-                          <div class="discount-value">-10%</div>
+                          <h3 class="discount-value">-10%</h3>
                         </div>
                       </div>
                     </div>
@@ -506,30 +530,30 @@
                       <div class="product-layout">
                         <img
                           class="picture-icon3"
-                          src="./public/picture@2x.png"
                           alt="Вертикальные жалюзи Lorem"
+                          src="./public/picture@2x.png"
                         />
 
-                        <div class="color" aria-label="Доступные цвета">
+                        <div class="color">
                           <img
                             class="image-22-icon2"
+                            alt=""
                             src="./public/image-22@2x.png"
-                            alt=""
                           />
                           <img
                             class="image-22-icon2"
+                            alt=""
                             src="./public/image-241@2x.png"
-                            alt=""
                           />
                           <img
                             class="image-22-icon2"
+                            alt=""
                             src="./public/image-271@2x.png"
-                            alt=""
                           />
                           <img
                             class="image-22-icon2"
-                            src="./public/image-26@2x.png"
                             alt=""
+                            src="./public/image-26@2x.png"
                           />
                         </div>
 
@@ -537,50 +561,52 @@
                       </div>
 
                       <div class="price">
-                        <h3 class="lorem5">Вертикальные жалюзи<br />«Lorem»</h3>
+                        <div class="lorem5">
+                          Вертикальные жалюзи<br />«Lorem»<br />
+                        </div>
 
                         <div class="price2">
                           <div class="actual-price3">
                             <div class="price-block">
-                              <span class="h32">от</span>
+                              <h3 class="h32">от</h3>
                             </div>
-                            <div class="h26">8000₽</div>
+                            <h2 class="h26">8000₽</h2>
                           </div>
 
                           <div class="old-price3">
-                            <div class="h27">10099₽</div>
+                            <h2 class="h27">10099₽</h2>
                             <img
                               class="old-price-item"
-                              src="./public/Strikethrough.svg"
                               alt=""
+                              src="./public/Strikethrough.svg"
                             />
                           </div>
                         </div>
 
                         <div class="action">
-                          <button class="component-1" type="button">
+                          <button class="component-1 js-ui-button" type="button">
                             <span class="div5">оформить заявку</span>
-                            <div class="background"></div>
+                            <span class="background" aria-hidden="true"></span>
                           </button>
-
                           <button
-                            class="cart-button"
+                            class="icon-button product-cart-button js-ui-button"
                             type="button"
-                            aria-label="Добавить в корзину"
+                            aria-label="Добавить товар в корзину"
                           >
                             <img
                               class="cart-icon2"
-                              src="./public/cart.svg"
                               alt=""
+                              aria-hidden="true"
+                              src="./public/cart.svg"
                             />
                           </button>
                         </div>
                       </div>
                     </div>
                   </div>
-                </article>
+                </section>
 
-                <article class="additional-products">
+                <section class="additional-products">
                   <div class="cart3">
                     <div class="product-display">
                       <div class="product-image-info-parent">
@@ -588,25 +614,25 @@
                           <div class="hover-info">
                             <img
                               class="image-35-icon"
+                              alt=""
                               src="./public/image-35@2x.png"
-                              alt=""
                             />
                             <img
                               class="image-36-icon"
+                              alt=""
                               src="./public/image-361@2x.png"
-                              alt=""
                             />
                             <img
                               class="image-36-icon"
-                              src="./public/image-37@2x.png"
                               alt=""
+                              src="./public/image-37@2x.png"
                             />
                           </div>
                         </div>
 
                         <div class="discount">
                           <div class="discount-child"></div>
-                          <div class="discount-value">-10%</div>
+                          <h3 class="discount-value">-10%</h3>
                         </div>
                       </div>
                     </div>
@@ -615,30 +641,30 @@
                       <div class="product-layout">
                         <img
                           class="picture-icon3"
-                          src="./public/picture3@2x.png"
                           alt="Короткое название товара"
+                          src="./public/picture3@2x.png"
                         />
 
-                        <div class="color" aria-label="Доступные цвета">
+                        <div class="color">
                           <img
                             class="image-22-icon2"
+                            alt=""
                             src="./public/image-22@2x.png"
-                            alt=""
                           />
                           <img
                             class="image-22-icon2"
+                            alt=""
                             src="./public/image-241@2x.png"
-                            alt=""
                           />
                           <img
                             class="image-22-icon2"
+                            alt=""
                             src="./public/image-271@2x.png"
-                            alt=""
                           />
                           <img
                             class="image-22-icon2"
-                            src="./public/image-26@2x.png"
                             alt=""
+                            src="./public/image-26@2x.png"
                           />
                         </div>
 
@@ -646,48 +672,48 @@
                       </div>
 
                       <div class="price">
-                        <h3 class="lorem5">Короткое название</h3>
+                        <div class="lorem5">Короткое название<br /><br /></div>
 
                         <div class="price2">
                           <div class="actual-price">
                             <div class="price-block">
-                              <span class="h32">от</span>
+                              <h3 class="h32">от</h3>
                             </div>
-                            <div class="h22">1200₽</div>
+                            <h2 class="h22">1200₽</h2>
                           </div>
 
                           <div class="old-price">
-                            <div class="h23">1000₽</div>
+                            <h2 class="h23">1000₽</h2>
                             <img
                               class="strikethrough-icon"
-                              src="./public/Strikethrough.svg"
                               alt=""
+                              src="./public/Strikethrough.svg"
                             />
                           </div>
                         </div>
 
                         <div class="action">
-                          <button class="component-1" type="button">
+                          <button class="component-1 js-ui-button" type="button">
                             <span class="div5">оформить заявку</span>
-                            <div class="background"></div>
+                            <span class="background" aria-hidden="true"></span>
                           </button>
-
                           <button
-                            class="cart-button"
+                            class="icon-button product-cart-button js-ui-button"
                             type="button"
-                            aria-label="Добавить в корзину"
+                            aria-label="Добавить товар в корзину"
                           >
                             <img
                               class="cart-icon2"
-                              src="./public/cart.svg"
                               alt=""
+                              aria-hidden="true"
+                              src="./public/cart.svg"
                             />
                           </button>
                         </div>
                       </div>
                     </div>
                   </div>
-                </article>
+                </section>
               </div>
             </div>
           </div>
@@ -695,25 +721,24 @@
 
         <section
           class="selection-support"
-          aria-labelledby="selection-support-title"
+          id="selection-support"
+          aria-labelledby="selection-title"
         >
           <div class="helper-02">
             <div class="helper-01">
               <div class="instruction-details">
-                <h2 class="div11" id="selection-support-title">
-                  Ваш помощник в выборе солнцезащиты
-                </h2>
+                <div class="div11">Ваш помощник в выборе солнцезащиты</div>
               </div>
 
-              <div class="zone-mapping">
+              <form class="zone-mapping" action="#" method="get">
                 <div class="zone-mapping-inner">
                   <div class="lorem-parent">
-                    <h3 class="lorem7">
+                    <h2 class="lorem7" id="selection-title">
                       Для какого помещения выбираете Lorem?
-                    </h3>
+                    </h2>
 
                     <div class="frame-div">
-                      <div class="parent2" aria-label="Шаг 1 из 3">
+                      <div class="parent2">
                         <i class="i4">1</i>
                         <div class="line-wrapper">
                           <div class="frame-child2"></div>
@@ -732,256 +757,254 @@
                   </div>
                 </div>
 
-                <form class="frame-section" action="#" method="post">
-                  <fieldset class="checkbox-pairs-parent">
-                    <legend class="visually-hidden">Выбор помещения, первая группа</legend>
-
+                <section class="frame-section" aria-label="Тип помещения">
+                  <div class="checkbox-pairs-parent">
                     <div class="checkbox-pairs">
                       <div class="checkbox-parent">
                         <label class="checkbox">
                           <input
                             class="checkbox-input visually-hidden"
                             type="checkbox"
-                            name="room"
-                            value="veranda"
+                            id="space-terrace"
+                            name="space"
+                            value="terrace"
+                            checked
                           />
                           <span class="checkbox-child"></span>
-                          <img
-                            class="checkbox-item"
-                            src="./public/Vector-2.svg"
-                            alt=""
-                          />
+                          <span class="checkbox-item" aria-hidden="true"></span>
                         </label>
-
                         <label class="checkbox">
                           <input
                             class="checkbox-input visually-hidden"
                             type="checkbox"
-                            name="room"
+                            id="space-office"
+                            name="space"
                             value="office"
                           />
                           <span class="checkbox-child"></span>
+                          <span class="checkbox-item" aria-hidden="true"></span>
                         </label>
-
                         <label class="checkbox">
                           <input
                             class="checkbox-input visually-hidden"
                             type="checkbox"
-                            name="room"
-                            value="education-med"
+                            id="space-education"
+                            name="space"
+                            value="education"
                           />
                           <span class="checkbox-child"></span>
+                          <span class="checkbox-item" aria-hidden="true"></span>
                         </label>
-
                         <label class="checkbox">
                           <input
                             class="checkbox-input visually-hidden"
                             type="checkbox"
-                            name="room"
+                            id="space-projector"
+                            name="space"
                             value="projector"
                           />
                           <span class="checkbox-child"></span>
+                          <span class="checkbox-item" aria-hidden="true"></span>
                         </label>
-
                         <label class="checkbox">
                           <input
                             class="checkbox-input visually-hidden"
                             type="checkbox"
-                            name="room"
-                            value="glass-meeting"
+                            id="space-meeting"
+                            name="space"
+                            value="meeting"
                           />
                           <span class="checkbox-child"></span>
+                          <span class="checkbox-item" aria-hidden="true"></span>
                         </label>
-
                         <label class="checkbox">
                           <input
                             class="checkbox-input visually-hidden"
                             type="checkbox"
-                            name="room"
-                            value="panoramic-windows"
+                            id="space-panoramic"
+                            name="space"
+                            value="panoramic"
+                            checked
                           />
                           <span class="checkbox-child"></span>
-                          <img
-                            class="checkbox-item"
-                            src="./public/Vector-2.svg"
-                            alt=""
-                          />
+                          <span class="checkbox-item" aria-hidden="true"></span>
                         </label>
                       </div>
                     </div>
 
                     <div class="label-pair">
-                      <label class="div12">Веранда, терраса, уличное пространство</label>
-                      <label class="div12">Офис</label>
-                      <label class="div12">Учебное или мед. учреждение</label>
-                      <label class="div12">Помещение с проектором</label>
-                      <label class="div12">Стеклянные переговорные</label>
-                      <label class="div17">Помещение с панорамными окнами</label>
+                      <label class="div12" for="space-terrace">Веранда, терраса, уличное пространство</label>
+                      <label class="div12" for="space-office">Офис</label>
+                      <label class="div12" for="space-education">Учебное или мед. учреждение</label>
+                      <label class="div12" for="space-projector">Помещение с проектором</label>
+                      <label class="div12" for="space-meeting">Стеклянные переговорные</label>
+                      <label class="div17" for="space-panoramic">Помещение с панорамными окнами</label>
                     </div>
-                  </fieldset>
+                  </div>
 
-                  <fieldset class="checkbox-pairs-parent">
-                    <legend class="visually-hidden">Выбор помещения, вторая группа</legend>
-
+                  <div class="checkbox-pairs-parent">
                     <div class="checkbox-pairs">
                       <div class="checkbox-parent">
                         <label class="checkbox">
                           <input
                             class="checkbox-input visually-hidden"
                             type="checkbox"
-                            name="room"
-                            value="mansard-windows"
+                            id="space-mansard"
+                            name="space"
+                            value="mansard"
+                            checked
                           />
                           <span class="checkbox-child"></span>
-                          <img
-                            class="checkbox-item"
-                            src="./public/Vector-2.svg"
-                            alt=""
-                          />
+                          <span class="checkbox-item" aria-hidden="true"></span>
                         </label>
-
                         <label class="checkbox">
                           <input
                             class="checkbox-input visually-hidden"
                             type="checkbox"
-                            name="room"
+                            id="space-kitchen"
+                            name="space"
                             value="kitchen"
                           />
                           <span class="checkbox-child"></span>
+                          <span class="checkbox-item" aria-hidden="true"></span>
                         </label>
-
                         <label class="checkbox">
                           <input
                             class="checkbox-input visually-hidden"
                             type="checkbox"
-                            name="room"
-                            value="children"
+                            id="space-kids"
+                            name="space"
+                            value="kids"
                           />
                           <span class="checkbox-child"></span>
+                          <span class="checkbox-item" aria-hidden="true"></span>
                         </label>
-
                         <label class="checkbox">
                           <input
                             class="checkbox-input visually-hidden"
                             type="checkbox"
-                            name="room"
+                            id="space-bedroom"
+                            name="space"
                             value="bedroom"
                           />
                           <span class="checkbox-child"></span>
+                          <span class="checkbox-item" aria-hidden="true"></span>
                         </label>
-
                         <label class="checkbox">
                           <input
                             class="checkbox-input visually-hidden"
                             type="checkbox"
-                            name="room"
+                            id="space-balcony"
+                            name="space"
                             value="balcony"
                           />
                           <span class="checkbox-child"></span>
+                          <span class="checkbox-item" aria-hidden="true"></span>
                         </label>
-
                         <label class="checkbox">
                           <input
                             class="checkbox-input visually-hidden"
                             type="checkbox"
-                            name="room"
+                            id="space-winter-garden"
+                            name="space"
                             value="winter-garden"
                           />
                           <span class="checkbox-child"></span>
+                          <span class="checkbox-item" aria-hidden="true"></span>
                         </label>
                       </div>
                     </div>
 
                     <div class="label-pair">
-                      <label class="div12">Помещение с мансардными окнами</label>
-                      <label class="div12">Кухня, столовая</label>
-                      <label class="div12">Детская</label>
-                      <label class="div12">Спальня</label>
-                      <label class="div12">Балкон</label>
-                      <label class="div12">Зимний сад</label>
+                      <label class="div12" for="space-mansard">Помещение с мансардными окнами</label>
+                      <label class="div12" for="space-kitchen">Кухня, столовая</label>
+                      <label class="div12" for="space-kids">Детская</label>
+                      <label class="div12" for="space-bedroom">Спальня</label>
+                      <label class="div12" for="space-balcony">Балкон</label>
+                      <label class="div12" for="space-winter-garden">Зимний сад</label>
                     </div>
-                  </fieldset>
-
-                  <div class="nav-dots-parent" aria-hidden="true">
-                    <div class="nav-dots"></div>
-                    <div class="nav-dots2"></div>
-                    <div class="nav-dots3"></div>
-                    <img
-                      class="frame-child4"
-                      src="./public/Rectangle-61.svg"
-                      alt=""
-                    />
                   </div>
+                </section>
 
-                  <div class="zone-mapping-child">
-                    <button class="frame-button" type="submit">
-                      <span class="div2">Далее</span>
-                    </button>
-                  </div>
-                </form>
-              </div>
+                <div class="nav-dots-parent">
+                  <div class="nav-dots"></div>
+                  <div class="nav-dots2"></div>
+                  <div class="nav-dots3"></div>
+                  <img
+                    class="frame-child4"
+                    alt=""
+                    src="./public/Rectangle-61.svg"
+                  />
+                </div>
+
+                <div class="zone-mapping-child">
+                  <button class="frame-button js-ui-button" type="submit">
+                    <span class="div2">Далее</span>
+                  </button>
+                </div>
+              </form>
             </div>
           </div>
         </section>
 
-        <section class="commerce-content-wrapper" aria-label="Спецпредложения">
+        <section class="commerce-content-wrapper" aria-label="Специальные предложения">
           <div class="commerce-content">
-            <article class="designer">
+            <section class="designer">
               <div class="nav-dots-parent">
                 <img
                   class="shutterstock-1466091425-1-icon"
                   loading="lazy"
-                  src="./public/shutterstock-1466091425-1@2x.png"
                   alt="Предложение для дилеров и дизайнеров"
+                  src="./public/shutterstock-1466091425-1@2x.png"
                 />
                 <div class="initial-40"></div>
               </div>
 
               <div class="parent4">
-                <h2 class="b">
+                <b class="b">
                   <span class="span3">Дилерам<br /></span>и
                   <span class="span3"> Дизайнерам</span>
-                </h2>
+                </b>
 
                 <div class="wrapper4">
-                  <p class="div25">
+                  <div class="div25">
                     Каждый веб-разработчик знает, что такое текст-«рыба»Каждый
                     веб-разработчик знает, что такое текст-«рыба»
-                  </p>
+                  </div>
                 </div>
               </div>
 
               <div class="designer-inner">
-                <button class="wrapper5" type="button">
+                <button class="wrapper5 js-ui-button" type="button">
                   <span class="div26">заявка на сотрудничество</span>
                 </button>
               </div>
-            </article>
+            </section>
 
-            <article class="commerce">
+            <section class="commerce">
               <div class="nav-dots-parent">
                 <img
                   class="shutterstock-1466091425-1-icon"
-                  src="./public/shutterstock-1403240543-1@2x.png"
                   alt="Предложение для коммерческих покупателей"
+                  src="./public/shutterstock-1403240543-1@2x.png"
                 />
                 <div class="hover-60"></div>
               </div>
 
               <div class="frame-parent3">
                 <div class="parent5">
-                  <h2 class="b2">Коммерческим покупателям</h2>
+                  <b class="b2">Коммерческим покупателям</b>
 
                   <div class="wrapper4">
-                    <p class="div25">
+                    <div class="div25">
                       Текст этот, несмотря на название,<br />не имеет никакого
                       отношения к обитателям водоемов
-                    </p>
+                    </div>
                   </div>
                 </div>
 
                 <div class="button-wrapper">
-                  <button class="wrapper5" type="button">
+                  <button class="wrapper5 js-ui-button" type="button">
                     <span class="div26">
                       запросить коммерческое предложение
                     </span>
@@ -992,17 +1015,17 @@
               <div class="general-pointing-hand-wrapper">
                 <img
                   class="general-pointing-hand3"
-                  src="./public/General-Pointing-Hand.svg"
                   alt=""
+                  src="./public/General-Pointing-Hand.svg"
                 />
               </div>
-            </article>
+            </section>
 
             <div class="commerce-content-child"></div>
           </div>
         </section>
 
-        <section class="promo-wrapper" aria-labelledby="promo-title">
+        <section class="promo-wrapper" id="promo" aria-labelledby="promo-title">
           <div class="promo">
             <div class="wrapper7">
               <h2 class="h210" id="promo-title">Акции</h2>
@@ -1015,27 +1038,27 @@
                 </div>
 
                 <div class="parent6">
-                  <h3 class="b3">Получай бонусы<br />и скидки</h3>
+                  <b class="b3">Получай бонусы<br />и скидки</b>
                   <img
                     class="tarot-rozhodnut-icon"
                     loading="lazy"
-                    src="./public/Tarot-rozhodnut@2x.png"
                     alt="Акционное предложение"
+                    src="./public/Tarot-rozhodnut@2x.png"
                   />
                 </div>
               </div>
             </section>
 
             <section class="business-offers">
-              <article class="offer-set">
+              <div class="offer-set">
                 <div class="room-labels">
                   <div class="business-area">
                     <div class="parent7">
-                      <h3 class="h211">Для коммерческих помещений</h3>
+                      <h2 class="h211">Для коммерческих помещений</h2>
                       <img
                         class="frame-child5"
-                        src="./public/Rectangle-48.svg"
                         alt=""
+                        src="./public/Rectangle-48.svg"
                       />
                     </div>
 
@@ -1043,8 +1066,8 @@
                       <div class="offer-area">
                         <img
                           class="offer-area-child"
-                          src="./public/Rectangle-48.svg"
                           alt=""
+                          src="./public/Rectangle-48.svg"
                         />
                         <div class="div30">2/3</div>
                       </div>
@@ -1055,120 +1078,129 @@
                 <div class="icon-set">
                   <img
                     class="present-icon"
-                    src="./public/present-icon.svg"
                     alt=""
+                    src="./public/present-icon.svg"
                   />
                   <img
                     class="coins-icons"
-                    src="./public/coins-icons.svg"
                     alt=""
+                    src="./public/coins-icons.svg"
                   />
                 </div>
 
                 <div class="parent8">
-                  <p class="div31">
+                  <div class="div31">
                     Специалисты сервисного центра обладают уникальным знаниями в
                     обслуживании американских автомобилей.
-                  </p>
-                  <p class="div32">
+                  </div>
+                  <div class="div32">
                     Удобная система скидок<br />для постоянных клиентов
-                  </p>
+                  </div>
                 </div>
-              </article>
+              </div>
             </section>
           </div>
         </section>
 
-        <section class="frame-parent4" aria-labelledby="works-title">
+        <section class="frame-parent4" id="works" aria-labelledby="works-title">
           <div class="image-samples-parent">
             <div class="image-samples">
               <img
                 class="shutterstock-1013219707-1-icon"
                 loading="lazy"
-                src="./public/shutterstock-1013219707-1@2x.png"
                 alt="Пример выполненной работы"
+                src="./public/shutterstock-1013219707-1@2x.png"
               />
 
               <img
                 class="shutterstock-1403240543-1-icon"
                 loading="lazy"
-                src="./public/shutterstock-1403240543-1@2x.png"
                 alt="Еще один пример выполненной работы"
+                src="./public/shutterstock-1403240543-1@2x.png"
               />
 
               <div class="sample-area">
                 <h2 class="h212" id="works-title">Примеры работ</h2>
-
-                <button class="arrows-wrapper" type="button" aria-label="Листать примеры работ">
+                <button
+                  class="arrows-wrapper js-ui-button"
+                  type="button"
+                  aria-label="Следующий пример работы"
+                >
                   <img
                     class="arrows-icon"
                     loading="lazy"
-                    src="./public/arrows.svg"
                     alt=""
+                    aria-hidden="true"
+                    src="./public/arrows.svg"
                   />
                 </button>
               </div>
             </div>
 
-            <div class="promo-play">
-              <button class="play-wrapper" type="button" aria-label="Запустить видео">
+            <section class="promo-play">
+              <button
+                class="play-wrapper js-ui-button"
+                type="button"
+                aria-label="Запустить видео с примерами работ"
+              >
                 <img
                   class="play-icon"
                   loading="lazy"
-                  src="./public/play.svg"
                   alt=""
+                  aria-hidden="true"
+                  src="./public/play.svg"
                 />
               </button>
-            </div>
+            </section>
           </div>
 
           <div class="frame-wrapper3">
             <div class="parent9">
-              <p class="div33">
+              <div class="div33">
                 Каждый веб-разработчик знает, что такое текст-«рыба».
-              </p>
+              </div>
 
               <div class="parent10">
-                <p class="div34">
+                <div class="div34">
                   Используется он веб-дизайнерами для вставки на
                   интернет-страницы
-                </p>
-                <p class="div34">
+                </div>
+                <div class="div34">
                   Текст этот не имеет никакого отношения к содержанию
-                </p>
+                </div>
               </div>
             </div>
           </div>
         </section>
       </main>
 
-      <footer class="footer">
+      <footer class="footer" id="site-footer">
         <div class="frame-parent5">
           <div class="services-parent">
-            <nav class="services" aria-label="Каталог">
-              <a class="div12" href="#">Lorem</a>
-              <a class="div12" href="#">Lorem</a>
-              <a class="div12" href="#">Lorem</a>
-              <a class="div12" href="#">Lorem</a>
-              <a class="div12" href="#">Lorem</a>
-              <a class="div12" href="#">Lorem</a>
+            <nav class="services" aria-label="Каталог услуг">
+              <a class="div12" href="#popular">Lorem</a>
+              <a class="div12" href="#popular">Lorem</a>
+              <a class="div12" href="#popular">Lorem</a>
+              <a class="div12" href="#popular">Lorem</a>
+              <a class="div12" href="#popular">Lorem</a>
+              <a class="div12" href="#popular">Lorem</a>
             </nav>
 
-            <nav class="menu2" aria-label="Меню сайта">
+            <nav class="menu2" aria-label="Информация о компании">
               <a class="div12" href="#">О компании</a>
               <a class="div12" href="#">Отзывы</a>
               <a class="div12" href="#">Блог</a>
-              <a class="div12" href="#">Контакты</a>
+              <a class="div12" href="#site-footer">Контакты</a>
               <a class="div12" href="#">Коммерческим<br />покупателям</a>
             </nav>
           </div>
 
           <div class="footer-info">
             <div class="logo-container2">
-              <a href="/" class="logo2" aria-label="На главную">LOGO</a>
+              <h2 class="logo2">LOGO</h2>
             </div>
 
-            <address class="address-container">
+            <div class="address-container">
               <div class="frame-parent6">
                 <div class="wrapper8">
                   <b class="b4">Москва и МО</b>
@@ -1181,7 +1213,7 @@
                   <div class="div42">ежедневно с 9:00 до 21:00</div>
                 </div>
               </div>
-            </address>
+            </div>
 
             <div class="phone">
               <a class="ornament" href="tel:+79555452381">8 955 545 23 81</a>
@@ -1192,28 +1224,28 @@
           <div class="footer-action">
             <div class="action-container2">
               <div class="calculator-button-container">
-                <button class="button4" type="button">
+                <button class="button4 js-ui-button" type="button">
                   <span class="div4">калькулятор</span>
                 </button>
               </div>
 
               <div class="contact-container">
-                <a class="e-mail-infoloremru" href="mailto:info@lorem.ru">
-                  E-mail:<br />info@lorem.ru
-                </a>
+                <a class="e-mail-infoloremru" href="mailto:info@lorem.ru"
+                  >E-mail:<br />info@lorem.ru</a
+                >
 
                 <div class="socials" aria-label="Социальные сети">
                   <a class="fb" href="#" aria-label="Facebook">FB</a>
                   <a class="ok" href="#" aria-label="Одноклассники">OK</a>
                   <a class="vk" href="#" aria-label="ВКонтакте">VK</a>
                   <a class="tw" href="#" aria-label="Twitter">TW</a>
-                  <a class="in" href="#" aria-label="Instagram">IN</a>
+                  <a class="in" href="#" aria-label="LinkedIn">IN</a>
                   <a class="yt" href="#" aria-label="YouTube">YT</a>
-
                   <img
                     class="general-pointing-hand4"
-                    src="./public/General-Pointing-Hand.svg"
                     alt=""
+                    aria-hidden="true"
+                    src="./public/General-Pointing-Hand.svg"
                   />
                 </div>
               </div>
@@ -1227,7 +1259,7 @@
           <div class="copyright-info">
             <div class="copyright-info-inner">
               <div class="lorem-wrapper">
-                <div class="lorem14">© 2020 Lorem</div>
+                <div class="lorem14">© 2026 Lorem</div>
               </div>
             </div>
 
@@ -1237,12 +1269,11 @@
               <a class="div45" href="#">Карта сайта</a>
             </div>
 
-            <div class="div45">Разработка — Lorem</div>
+            <a class="div45" href="#">Разработка — Lorem</a>
           </div>
         </div>
       </footer>
     </div>
-
     <script src="./main.js"></script>
   </body>
 </html>
